@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Spanish Vocabulary</title>
-    <link rel="stylesheet" href="./colorStyle.css" />
-    <style>
-      #heading{
-        background-color: rgb(120, 177, 4);
-      }
-    </style>
-  </head>
 
-  <body>
-    <h1>Colors</h1>
-    <h2 id="heading">Learn the colors in Spanish!</h2>
-    <h2 class="color-title" id="red">Rojo(Red)</h2>
-    <img src="./assets/images/red.png" alt="red" />
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Properties</title>
+  <style>
+    body {
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 18px;
+    }
+    #color{
+      color: rgb(231, 50, 0);
+    }
 
-    <h2 class="color-title" id="blue">Azul(Blue)</h2>
-    <img src="./assets/images/blue.png" alt="blue" />
+    #font{
+      font-size: 2rem;
+    }
+    html{
+      font-size: 30px;
+    }
 
-    <h2 class="color-title" id="orange">Anaranjado(Orange)</h2>
-    <img src="./assets/images/orange.png" alt="orange" />
+    #weight{
+      font-weight: bold;
+    }
 
-    <h2 class="color-title" id="green">Verde(Green)</h2>
-    <img src="./assets/images/green.png" alt="green" />
+    #family{
+      font-family: "caveat";
+    }
 
-    <h2 class="color-title" id="yellow">Amarillo(Yellow)</h2>
-    <img src="./assets/images/yellow.png" alt="yellow" />
-  </body>
+    #text{
+      text-align: right;
+    }
+
+    /* Don't change the CSS above, add Your CSS below */
+
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+ </head>
+
+<body>
+  <h1>Important CSS Properties</h1>
+  <p id="color">Color</p>
+  <p id="font">Font Size</p>
+  <p id="weight">Font Weight</p>
+  <p id="family">Font Family</p>
+  <p id="text">Text Align</p>
+
+  <!-- TODOs
+  1. Change the color of <p>Color</p> to "coral" color.
+  2. Change the font size of <p>Font Size</p> to 2X the size of the root font size.
+  3. Change the font weight of <p>Font Weight</p> to 900.
+  4. Change the font family of <p>Font Family</p> to the Google font Caveat with regular (400) font weight.
+  Link: https://fonts.google.com/specimen/Caveat
+  5. Change the <p>Text Align</p> to right align.
+  6. Change the the root (html element) font size to 30px -->
+</body>
+
 </html>
-
-<!-- 
-TODOs
-IMPORTANT: You should not need to make ANY CHANGES to index.html
-All code should be written in your CSS file.
-
-1. Create a CSS file and incorporate it as an external stylesheet.
-2. Use CSS to style each of the color titles to meaning. 
-Hint: Use the id to help if you don't know the words in spanish.
-3. Use CSS to change all the color titles to have "font-weight: normal;"
-4. Use CSS (not HTML) to make all the images 200px heigh and 200px wide. 
-Hint: 
-https://developer.mozilla.org/en-US/docs/Web/CSS/height
-https://developer.mozilla.org/en-US/docs/Web/CSS/width
--->

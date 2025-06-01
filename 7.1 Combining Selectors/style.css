@@ -1,0 +1,23 @@
+/* (Group rule (,))*/
+h1,h2{
+    color: blueviolet;
+}
+/*  >  */
+div > p{
+    color: firebrick;
+}
+
+.box > p{
+    color: rgb(43, 255, 0);
+}
+
+.box li{
+    color: rgb(255, 0, 13);
+}
+
+li.done{
+    color: seagreen;
+}
+ul p.done{
+    font-size: 0.6rem;
+}

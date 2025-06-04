@@ -11,88 +11,70 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
+  display: block;
+  
 }
 
 footer {
-  text-align: center;
-  color: rgb(251, 3, 3);
-}
-
-@media (max-width:550px){
-  .tile-image{
-    width: 400px;
-    height: 200px;
-  }
-  h1{
-    text-align: center;
-    font-size: 50px;
-  }
-  
-}
-  @media (max-width:650px) and (min-width:551px){
-    .tile-image{
-      width: 380px;
-      height: 200px;
-     }
-     h1{
-      text-align: center;
-      font-size: 40px;
-     }
+  text-align: right;
+  color: rgb(61, 3, 251);
+  float: both;
   
 }
 .logo{
-    position: relative;
-    left: 3px;
-    width: 25%;
-  }
-
-  @media (max-width:800px) and (min-width:651px){
-    .tile-image{
-      width: 315px;
-      height: 175px;
-      margin-right: 15px;
-      margin-top: 1px;
-     }
-     h1{
-      text-align: left;
-      font-size: 60px;
-     }
-  }
- 
-  @media (max-width:1000px) and (min-width:801px){
-    .tile-image{
-      width: 300px;
-      height: 175px;
-      margin-right: 15px;
-      margin-top: 1px;
-     }
-
-     h1{
-      text-align: left;
-      font-size: 60px;
-      
-     }
-
-     
+  position: relative;
+  width: 25%;
 }
 
-@media (min-width:1001px){
-    
-    
-     .left{
-      width:50%;
-     }
-    .right{
-      width:50%;
-      }
-    .tile-image{
-      width: 300px;
-      height: 175px;
-      margin-right: 15px;
-      margin-top: 1px;
-      display: inline-block;
-     }
-} 
-  
+@media (max-width:500px){
+  .card{
+    display:block;
 
+  }
+  .tile-image{
+    width: 400px;
+    height: 250px;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+
+}
+@media (min-width:501px){
+  .left{
+    float: left;
+    width: 50%;
+  }
+  .right{
+    float: right;
+    width:50%
+  }
+  .tile-image{
+    width:200px;
+    float:left;
+  }
+
+ 
+}
+
+@media (min-width:701px){
+  .left{
+    float: left;
+    width: 50%;
+  }
+  .right{
+    float: right;
+    width:50%
+  }
+  .tile-image{
+    width:45%;
+    float:left;
+    margin-right: 15px;
+  }
+}
+.creative{
+  color: rgb(81, 81, 178);
+  font-size: 110%;
+}

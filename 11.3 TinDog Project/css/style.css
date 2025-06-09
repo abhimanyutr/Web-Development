@@ -2,6 +2,8 @@
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+ 
+  
 }
 
 @keyframes gradient-animation {
@@ -14,6 +16,13 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+.iphone{
+  position: relative;
+  left: 950px;
+  padding-top: 50px;
 }
 
 .icon-square {

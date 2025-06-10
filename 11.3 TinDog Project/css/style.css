@@ -31,3 +31,36 @@
   height: 100px;
   border-radius: 50%;
 }
+.third{
+  height:400px;
+  background-color: rgb(239, 241, 242);
+}
+.third > h2{
+  text-align: center;
+  padding-top: 50px ;
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  
+}
+.circle > img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+#para{
+  text-align: center;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  flex-basis: 300px;
+  align-items: center;
+  justify-content: center;
+}

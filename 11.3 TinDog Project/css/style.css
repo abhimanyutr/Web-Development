@@ -17,12 +17,8 @@
     background-position: 0% 50%;
   }
 }
-
-
-.iphone{
-  position: relative;
-  left: 950px;
-  padding-top: 50px;
+#title{
+  height: 98.1vh;
 }
 
 .icon-square {

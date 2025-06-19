@@ -1,8 +1,8 @@
- var para1 = "Kochi is known as the financial, commercial and industrial Capital of Kerala. Kochi is the only city in the country to have a water metro system, which has been described as the world's largest electric boat metro transportation infrastructure.";
+var para1 = "Kochi is known as the financial, commercial and industrial Capital of Kerala. Kochi is the only city in the country to have a water metro system, which has been described as the world's largest electric boat metro transportation infrastructure.";
 
- var para66 = para1.slice(0,66);
+var para66 = para1.slice(0,66);
 
- console.log(para66);
+console.log(para66);
 
 
 var fname = "abhiManyU";
